@@ -1,12 +1,12 @@
 # A Single node of a singly Linked List
-Class Node:
+class Node:
   # constructor
   def __init__(self, data, next = None):
     self.data = data
     self.next = next
 
 # Linked List class with a single head node
-Class LinkedList:
+class LinkedList:
   def __init__(self):
     self.head = None
 
