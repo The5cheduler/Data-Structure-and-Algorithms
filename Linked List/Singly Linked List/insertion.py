@@ -1,9 +1,9 @@
-Class Node:
+class Node:
 def __init__(self, data = None, next =None):
   self.data = None
   self.next = None
 
-Class LinkedList:
+class LinkedList:
   def __init__(self):
     seld.head = None
 
