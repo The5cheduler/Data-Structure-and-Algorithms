@@ -11,3 +11,7 @@ class LinkedList:
     new_node = Node(data) # initialize new node with data
     new_node.next = self.head # assign current node's next pointer set to self.head
     self.head = new_node # set haed pointer to newly created node
+
+  def push(self, data, llist):
+    new_node = Node(data=data, next=llist)
+    return new_node
